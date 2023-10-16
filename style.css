@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(90deg, rgb(245, 183, 69), rgb(226, 158, 12));
+    position: relative;
+}
+
+.top{
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1{
+    color: orange;
+    font-size: 2.5rem; 
+}
+.mall{
+    color: white;
+}
+/*the menu bar*/
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.item{
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: white;
+    transition: 0.3s;
+}
+a.item:hover{
+    color: orange;
+}
+.hero{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/*the write up the right*/
+.quality{
+    padding: 30px;
+    font-size: 2.6rem;
+    margin: 1rem 4rem;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: orangered;
+}
+.shop{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.child img{
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center;
+
+}
+
+#contact{
+    padding: 11px;
+    font-size: 18px;
+    background-color: #fff;
+    font-family: cursive;
+}
+/*icons*/
+.icons{
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+i{
+    font-size: 1.5rem;
+}
+
+
+
+

@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, Times, serif;
+    background: linear-gradient(69deg, orangered, orange);
+}
+h1{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color: orange;
+    text-align: center;
+    
+}
+
+h2{
+    margin-bottom: 3rem;
+}
+/*jeans*/
+.jeans{
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+}
+
+.jeans1, .jeans2{
+    border: solid 0.11px gray;
+    cursor: pointer;
+}
+
+.jeans3,.jeans4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+/*cargo*/
+.cargo{
+    display: flex;
+    max-width: 100%;
+    background-color: white
+}
+
+.cargo1,.cargo2{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+.cargo3,.cargo4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+
+/*dress pants*/
+.dress-pants{
+    display: flex;
+    max-width: 100%;
+    background-color: white
+}
+
+.pants1,.pants2{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+.pants3,.pants4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+/*chinos*/
+.chinos{
+    display: flex;
+    max-width: 100%;
+    background-color: white
+}
+
+.chinos1,.chinos2{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+.chinos3,.chinos4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+
+
+
+figure{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 245px;
+    height: 280px;
+}
+
+button{
+    padding: 9px;
+    border-radius: 3px;
+    border: none;
+    background-color: black;
+}
+
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

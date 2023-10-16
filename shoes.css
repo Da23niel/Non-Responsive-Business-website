@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(54deg,orange,orangered);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: orange;
+    font-size: 2.3rem; 
+    padding: 10px;
+    margin: 0;
+}
+.mall{
+    color: rgb(250, 248, 248);
+}
+
+section{
+    width: 45%;
+    font-size: 3rem;
+}
+
+
+
+.formal,.nike,.airjordan,.slippers{
+    display: flex;
+    max-width: 100%;
+    margin-top: 1.6rem;
+    margin-left: 1.6rem;
+}
+
+.nike1,.nike2,.nike3,.nike4{
+    border: solid 0.1px grey;
+   
+
+}
+
+.formal1,.formal2,.formal3,.formal4{
+    border: solid 0.1px grey;
+
+}
+
+
+.jordan1,.jordan2,.jordan3,.jordan4{
+    border: solid 0.1px grey;
+    background-color: white;
+    
+}
+
+
+
+.slippers1,.slippers2,.slippers3,.slippers4{
+    border: solid 0.1px grey;
+
+}
+
+button{
+    padding: 9px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+}
+
+figure{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img{
+    width:  240px;
+    height: 210px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}

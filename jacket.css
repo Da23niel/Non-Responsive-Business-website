@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(55deg, orange, orangered);
+}
+
+
+
+
+/*pay now*/
+button{
+    padding: 9px;
+    border-radius: 3px;
+    border: none;
+    background-color: black;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+figure{
+    text-align: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: orange;
+    background-color: black;
+    padding: 10px;
+    margin-top: 0;
+}
+/*JACKETS*/
+.jackets{
+    display: flex;
+    max-width: 100%;
+}
+
+.jacket1, .jacket2{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+.jacket3, .jacket4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+/*SWEATER*/
+.sweater{
+    display: flex;
+    max-width: 100%;
+}
+
+.hoodie1, .hoodie2{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+.hoodie3, .hoodie4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+/*RAIN-COAT*/
+.rain-coat{
+    display: flex;
+    max-width: 100%;
+}
+
+
+.coat1, .coat2{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+.coat3, .coat4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+img{
+    width: 245px;
+    height: 270px;
+}
+
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}

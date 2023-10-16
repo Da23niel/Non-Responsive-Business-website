@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, Times, serif;
+    background: linear-gradient(69deg, orangered, orange);
+}
+h1{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color: orange;
+    text-align: center;
+    
+}
+
+.clothes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.suits1, .suits2{
+    border: solid 1px gray;
+    cursor: pointer;
+}
+
+.suits3, .suits4{
+    border: solid 1px gray;
+    cursor: pointer;
+}
+/*pay now*/
+button{
+    padding: 9px;
+    border-radius: 3px;
+    border: none;
+    background-color: black;
+}
+
+figure{
+    text-align: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.clothes{
+    background-color: white;
+}
+
+.clothes1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: white;
+    
+}
+
+.suits5, .suits6{
+    border: solid 0.1px gray;
+    cursor: pointer;
+    
+}
+
+.suits7, .suits8{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+img{
+    width: 235px;
+    height: 250px;
+}
+
+p{
+    color: black;
+    font-family: initial;
+}

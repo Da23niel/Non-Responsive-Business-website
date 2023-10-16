@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(95deg, rgb(179, 68, 86), purple);
+}
+
+.top{
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mall{
+    color: white;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+
+.context,.contain,.container,.content,.sandals{
+    display: flex;
+    width: 100%;
+}
+img{
+    width: 240px;
+    height: 270px;
+}
+
+figure{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: black;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+}
+.content1,.content2,.content3,.content4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+
+.contain1,.contain2,.contain3,.contain4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+
+}
+.container1,.container2,.container3,.container4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+}
+.context1,.context2,.context3,.context4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+
+}
+
+.sandal1,.sandal2,.sandal3,.sandal4{
+    border: solid 0.1px gray;
+    cursor: pointer;
+
+}
+h4{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
